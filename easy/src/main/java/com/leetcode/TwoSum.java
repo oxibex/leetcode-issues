@@ -19,7 +19,9 @@ public class TwoSum {
         int[] input = {2, 7, 11, 15};
         TwoSum instance = new TwoSum();
         int[] result = instance.twoSum(input, TARGET);
-        System.out.println(result[0] + " " + result[1]);
+        if(result != null) {
+            System.out.println(result[0] + " " + result[1]);
+        }
     }
 
     public int[] twoSum(int[] nums, int target) {
