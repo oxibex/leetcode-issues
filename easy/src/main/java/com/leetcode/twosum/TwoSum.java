@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.twosum;
 
 /**
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
